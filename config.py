@@ -1,4 +1,4 @@
-LOAD_DATASET_ROOT="Cifar10"
+LOAD_DATASET_ROOT="Dataset"
 PATH_CALLBACK="ResNet34_cifar10.pth.tar"
 TENSORBOARD_LOG_DIR="Tensorboard_Writer"
 PREDICTION_PATH="Prediction_Images"
