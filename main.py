@@ -96,11 +96,7 @@ if config.TEST == True:
     results_test, prediction_test_list = testing.TEST_MODEL(TestDataloader, model_vgg=Model, loss_fn=loss_fn, devices=devices)
 
 
-# Visualization
-if config.VISUALIZE_TEST_PRED == True:
-    visualization.Visualization_test_predict(TestDataloader, prediction_test_list)
-
-
+# Prediction and Visualization
 if config.PREDICTION==True:
     predict.predict(prediction_folder_path=config.PREDICTION_PATH,
                     model=Model,
