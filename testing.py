@@ -6,7 +6,7 @@ def TEST_MODEL(test_dataloader,model_vgg,loss_fn,devices):
     test_correct=0.0
     test_total=0.0
     loss_test_values=0.0  
-    prog_bar=tqdm.tqdm(range(len(test_dataloader),"Test Progress"))              
+    prog_bar=tqdm.tqdm(range(len(test_dataloader)),"Test Progress")              
     for batch_test,(img,label) in enumerate(test_dataloader,0):
             
         
