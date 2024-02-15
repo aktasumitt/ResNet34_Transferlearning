@@ -20,7 +20,7 @@
 - I used CrossEntropy Loss and Adam optimizer with 0.01 learning rate
 
 ## Results:
-- After 6 epochs, the model achieved approximately 98.5% accuracy on both the training, validation, and test sets, with a loss value of 0.064.
+- After 6 epochs, the model achieved approximately 85% accuracy on both the training, validation, and test sets..
 
 ## Usage: 
 - You can train the model by setting "TRAIN" to "True" in config file and your checkpoint will save in "config.CALLBACKS_PATH"
