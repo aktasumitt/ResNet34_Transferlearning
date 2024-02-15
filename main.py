@@ -93,7 +93,7 @@ if config.TRAIN==True:
 
 # Testing
 if config.TEST == True:
-    loss_test, accuracy_test, prediction_test_list = testing.TEST_MODEL(TestDataloader, model_vgg=Model, loss_fn=loss_fn, devices=devices)
+    results_test, prediction_test_list = testing.TEST_MODEL(TestDataloader, model_vgg=Model, loss_fn=loss_fn, devices=devices)
 
 
 # Visualization
